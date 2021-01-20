@@ -20,7 +20,7 @@ OneCycleLR每個mini batch更新學習率。
 ## 四、Acknowledgements
 1. ##### [Speech_Recognition-PyTorch](https://github.com/BlackyYen/Speech_Recognition-PyTorch) @[Chen-Yen Chang BlackyYen](https://github.com/BlackyYen)
 2. ##### [pytorch載入語音類自定義資料集](https://www.it145.com/9/56376.html) @[sddin@qq.com]
-3. ##### [利用 AssemblyAI 在 PyTorch 中建立端到端的語音識別模型](https://cloud.tencent.com/developer/article/1645492) @[Comet]
+3. ##### [利用 AssemblyAI 在 PyTorch 中建立端到端的語音識別模型](https://cloud.tencent.com/developer/article/1645492) @[Comet](https://cloud.tencent.com/developer/user/781483)
 4. ##### [編輯距離WER/CER計算的一種python實現](https://blog.csdn.net/baobao3456810/article/details/107381052) @[zwglory](https://blog.csdn.net/baobao3456810)
 5. ##### [HResults計算字錯率(WER)、句錯率(SER)](https://www.cnblogs.com/findyou/p/10646312.html)  @[Findyou](https://home.cnblogs.com/u/findyou/)
 6. ##### [語音識別CER計算](https://zhuanlan.zhihu.com/p/114414797) @[Jack](https://www.zhihu.com/people/honher)
