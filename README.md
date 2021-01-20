@@ -3,7 +3,7 @@
 ### 1.資料預處理
 由於直接縮短音檔長度訓練會導致音檔與utterance不匹配，因此直接移除長度過長的訓練集以加快訓練速度。
 ### 2. 資料集切割
-dataset_partition由@[Chen-Yen Chang BlackyYen](https://github.com/BlackyYen/Dataset_Partition)友情贊助！！  
+dataset_partition由@[Chen-Yen Chang BlackyYen](https://github.com/BlackyYen)友情贊助！！  
 切割訓練集與測試集9:1。
 ### 3. 特徵擷取
 1. 固定所有訓練資料長度，避免記憶體用量忽高忽低。
@@ -19,6 +19,7 @@ OneCycleLR每個mini batch更新學習率。
 雖然以訓練驗證損失來看有明顯的overfitting發生，但在驗證的WER上卻還是逐漸價降，詳細實驗數據可至[comet](https://www.comet.ml/jerryjack121/speech/8d7af6e924ba4bf08086b225506f33c2?experiment-tab=chart&showOutliers=true&smoothing=0&transformY=smoothing&viewId=0Az4gwmjBfiXAHGwodKdCQqBg&xAxis=epoch)平台上查看。
 ## 四、Acknowledgements
 1. ##### [Speech_Recognition-PyTorch](https://github.com/BlackyYen/Speech_Recognition-PyTorch) @[Chen-Yen Chang BlackyYen](https://github.com/BlackyYen)
+2. ##### [Dataset_Partition](https://github.com/BlackyYen/Dataset_Partition/blob/master/audio.py) @[Chen-Yen Chang BlackyYen](https://github.com/BlackyYen)
 2. ##### [pytorch載入語音類自定義資料集](https://www.it145.com/9/56376.html) @[sddin@qq.com]
 3. ##### [利用 AssemblyAI 在 PyTorch 中建立端到端的語音識別模型](https://cloud.tencent.com/developer/article/1645492) @[Comet](https://cloud.tencent.com/developer/user/781483)
 4. ##### [編輯距離WER/CER計算的一種python實現](https://blog.csdn.net/baobao3456810/article/details/107381052) @[zwglory](https://blog.csdn.net/baobao3456810)
