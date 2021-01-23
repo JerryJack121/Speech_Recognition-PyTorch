@@ -10,8 +10,8 @@ for filename in (filelist):
     file_path = os.path.join(path, filename)
     y, sr = librosa.load(file_path)
     duration = librosa.get_duration(y, sr)
-    if duration > 20:
-        maxduration = duration
+    if duration > maxduration:
+        # maxduration = duration
         filepath = os.path.join(path, filename)
         os.remove(filepath)
         # print(maxduration)
